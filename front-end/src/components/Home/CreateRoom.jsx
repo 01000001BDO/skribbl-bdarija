@@ -21,7 +21,7 @@ const CreateRoom = () => {
     try {
       console.log('Creating room with data:', formData);
       
-      const response = await fetch('http://localhost:3001/api/rooms', {
+      const response = await fetch('https://skribbl-bdarija-backend-505baf9b0284.herokuapp.com/api/rooms', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 

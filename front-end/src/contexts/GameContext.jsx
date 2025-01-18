@@ -32,7 +32,7 @@ export const GameProvider = ({ children }) => {
 
   useEffect(() => {
     const createSocket = () => {
-      const newSocket = io('http://localhost:3001', {
+      const newSocket = io('https://skribbl-bdarija-backend-505baf9b0284.herokuapp.com/', {
         transports: ['websocket'],
         reconnection: true,
         reconnectionDelay: 1000,
