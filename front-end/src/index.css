@@ -30,3 +30,43 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+@keyframes earthquake {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-15px);
+  }
+  20% {
+    transform: translateX(15px);
+  }
+  30% {
+    transform: translateX(-15px);
+  }
+  40% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+  60% {
+    transform: translateX(15px);
+  }
+  70% {
+    transform: translateX(-15px);
+  }
+  80% {
+    transform: translateX(15px);
+  }
+  90% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.earthquake {
+  animation: earthquake 7s ease-in-out;
+}
