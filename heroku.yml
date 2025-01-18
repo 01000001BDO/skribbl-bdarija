@@ -1,3 +1,6 @@
-build:
+setup:
   config:
     PROJECT_PATH: back-end
+build:
+  docker:
+    web: back-end/Dockerfile
