@@ -1,0 +1,3 @@
+build:
+  config:
+    PROJECT_PATH: back-end
